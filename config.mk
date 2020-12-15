@@ -37,5 +37,5 @@ PRODUCT_PACKAGES += \
 #    Abstruct 
 
 # Remove unused packages, by default i'm adding some LineageOS apps like audiofx, jelly, and some gapps prebuilt apps like Google TTS
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     RemovePackages
