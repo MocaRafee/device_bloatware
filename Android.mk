@@ -104,7 +104,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := AudioFX Jelly GoogleTTS talkback PixelLiveWallpaperPrebuilt GoogleFeedback OPScreenRecord 
+LOCAL_OVERRIDES_PACKAGES := AudioFX Jelly GoogleTTS talkback PixelLiveWallpaperPrebuilt GoogleFeedback OPScreenRecord  NgaResources RecorderPrebuilt arcore DevicePolicyPrebuilt  DiagnosticsToolPrebuilt  Drive  GoogleCamera  PlayAutoInstallConfig  SoundAmplifierPrebuilt  Tycho  VZWAPNLib  WallpapersBReel2019  AmbientSensePrebuilt  AppDirectedSMSService  DMService  GCS  GoogleFeedback  GoogleOneTimeInitializer  GooglePartnerSetup  MaestroPrebuilt   MyVerizonServices  NexusLauncherRelease  OBDM_Permissions  OemDmTrigger  PrebuiltGmsCore  RecorderPrebuilt  RilConfigService  SCONE  SafetyHubPrebuilt  ScribePrebuilt  Showcase  SprintDM  SprintHM  USCCDM  Velvet  VzwOmaTrigger  WellbeingPrebuilt  WfcActivation  obdm_stub ModuleMetadataGooglePrebuilt TagGoogle PrebuiltGmsCoreQt  PrebuiltGmsCoreQt_GoogleCertificates  PrebuiltGmsCoreQt_DynamiteLoader  PrebuiltGmsCoreQt_AdsDynamite  PrebuiltGmsCoreQt_DynamiteModulesA  PrebuiltGmsCoreQt_DynamiteModulesC  PrebuiltGmsCoreQt_MeasurementDynamite  PrebuiltGmsCoreQt_MapsDynamite  PrebuiltGmsCoreQt_CronetDynamite  AndroidPlatformServices
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
