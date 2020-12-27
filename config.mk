@@ -32,6 +32,7 @@
 PRODUCT_PACKAGES += \
     GalleryGo \
     KimchiRecorder \
+    BeatPlayer \
     Musicolet 
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
