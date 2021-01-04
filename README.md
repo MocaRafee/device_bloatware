@@ -15,7 +15,7 @@ this repo is created.
 
 		$(call inherit-product-if-exists, device/bloatware/config.mk)
 		
-#### 3. uncomment/comment or maybe delete some apps which you didn't need, for example
+#### 3. uncomment/comment or maybe delete some apps which you didn't need in config.mk, for example
 
 #####	 To disable, add # to the product_packages and also the packages
 	# Via Browser
