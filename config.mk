@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    GContacts
 
+# RetroMusic Player
+PRODUCT_PACKAGES += \
+    RetroMP
+
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
     GalleryGo \
