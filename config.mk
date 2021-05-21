@@ -29,17 +29,16 @@
 #    GContacts
 
 # RetroMusic Player
-PRODUCT_PACKAGES += \
-    RetroMP
+#PRODUCT_PACKAGES += \
+#    RetroMP
 
 # RetroMusic Player
 #PRODUCT_PACKAGES += \
 #    RetroMPLegacy
 
-# My Preffered Bloated Apps
+# My Preffered Bloated Apps for Kenzo & Whyred
 PRODUCT_PACKAGES += \
-    GalleryGo \
-    KimchiRecorder
+    GalleryGo
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
@@ -48,3 +47,13 @@ PRODUCT_PACKAGES += \
 # Remove unused packages, by default i'm adding some LineageOS apps like audiofx, jelly, and some gapps prebuilt apps like Google TTS
 #PRODUCT_PACKAGES += \
 #    RemovePackages
+
+# DeviceSpecific
+ifeq ($(PRODUCT_DEVICE), whyred)
+PRODUCT_PACKAGES += \
+    RetroMPLegacy \
+	KimchiRecorder
+else ifeq ($(PRODUCT_DEVICE), kenzo)
+PRODUCT_PACKAGES += \
+    RemovePackages
+endif
