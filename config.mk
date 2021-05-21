@@ -32,6 +32,10 @@
 PRODUCT_PACKAGES += \
     RetroMP
 
+# RetroMusic Player
+#PRODUCT_PACKAGES += \
+#    RetroMPLegacy
+
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
     GalleryGo \
