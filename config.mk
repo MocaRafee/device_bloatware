@@ -29,8 +29,8 @@
 #    GContacts
 
 # RetroMusic Player
-PRODUCT_PACKAGES += \
-    RetroMP
+#PRODUCT_PACKAGES += \
+#    RetroMP
 
 # RetroMusic Player
 #PRODUCT_PACKAGES += \
@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
     GalleryGo \
-    KimchiRecorder
+    KimchiRecorder \
+	Musicolet
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
