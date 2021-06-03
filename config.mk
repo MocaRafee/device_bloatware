@@ -39,12 +39,13 @@
 # My Preffered Bloated Apps
 PRODUCT_PACKAGES += \
     GalleryGo \
-    KimchiRecorder
+    KimchiRecorder \
+	SnapdragonMusic
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
 #    Abstruct 
 
 # Remove unused packages, by default i'm adding some LineageOS apps like audiofx, jelly, and some gapps prebuilt apps like Google TTS
-#PRODUCT_PACKAGES += \
-#    RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
