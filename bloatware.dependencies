@@ -1,8 +1,0 @@
-[
-   {
-      "remote":"github",
-      "repository":"MocaRafee/android_packages_apps_SnapdragonMusic",
-      "target_path":"packages/apps/SnapdragonMusic",
-      "branch":"caf"
-   }
-]

@@ -11,6 +11,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := Camera2 Snap SnapdragonCamera SnapdragonCamera2
 LOCAL_DEX_PREOPT := false
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
