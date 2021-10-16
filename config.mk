@@ -1,6 +1,6 @@
 # CameraGO, disabled by default
-PRODUCT_PACKAGES += \
-    CameraGo \
+#PRODUCT_PACKAGES += \
+#    CameraGo \
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
 # FirefoxLite
