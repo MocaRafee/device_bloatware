@@ -1,10 +1,12 @@
+ifneq ($(USE_GAPPS), true)
 # CameraGO but without GMS depedency
-#PRODUCT_PACKAGES += \
-#    CameraGo
-
+PRODUCT_PACKAGES += \
+    CameraGo
+else
 # CameraGO but with GMS depedency
-#PRODUCT_PACKAGES += \
-#    CameraGowDeps
+PRODUCT_PACKAGES += \
+    CameraGowDeps
+endif
 
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
