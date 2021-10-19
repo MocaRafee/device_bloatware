@@ -1,6 +1,11 @@
-# CameraGO, disabled by default
+# CameraGO but without GMS depedency
 #PRODUCT_PACKAGES += \
-#    CameraGo \
+#    CameraGo
+
+# CameraGO but with GMS depedency
+#PRODUCT_PACKAGES += \
+#    CameraGowDeps
+
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
 # FirefoxLite
