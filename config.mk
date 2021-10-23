@@ -5,7 +5,7 @@ PRODUCT_PACKAGES += \
 else
 # CameraGO but with GMS depedency
 PRODUCT_PACKAGES += \
-    CameraGowDeps
+    GcamGo
 endif
 
 
