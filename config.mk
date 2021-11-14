@@ -1,12 +1,12 @@
-ifneq ($(USE_GAPPS), true)
+##ifneq ($(USE_GAPPS), true)
 # CameraGO but without GMS depedency
-PRODUCT_PACKAGES += \
-    CameraGo
-else
+#PRODUCT_PACKAGES += \
+#    CameraGo
+#else
 # CameraGO but with GMS depedency
 PRODUCT_PACKAGES += \
     GcamGo
-endif
+#endif
 
 
 # Browser selection, please disable or delete one. By default is shipping Via Browser.
@@ -44,8 +44,8 @@ endif
 #    RetroMPLegacy
 
 # My Preffered Bloated Apps
-PRODUCT_PACKAGES += \
-    GalleryGo
+#PRODUCT_PACKAGES += \
+#    GalleryGo
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
