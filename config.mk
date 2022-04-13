@@ -44,8 +44,8 @@ PRODUCT_PACKAGES += \
 #    RetroMPLegacy
 
 # My Preffered Bloated Apps
-#PRODUCT_PACKAGES += \
-#    GalleryGo
+PRODUCT_PACKAGES += \
+    GalleryGo
 	
 # Wallpaper apps like AOSPA ones, enable it if you like AOSPA/Oneplus styled wallpaper
 #PRODUCT_PACKAGES += \
