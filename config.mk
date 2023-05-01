@@ -4,5 +4,5 @@ PRODUCT_PACKAGES += \
     GcamGo
     
 # My Preffered Gallery Apps
-PRODUCT_PACKAGES += \
-    GalleryGo
+#PRODUCT_PACKAGES += \
+#    GalleryGo
